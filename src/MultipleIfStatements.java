@@ -1,10 +1,10 @@
 public class MultipleIfStatements {
     public static void main(String[] args) {
-        int num = 19;
-        if (num % 2 == 1) {
-            System.out.println("Even");
+        int mark = 55;
+        if (mark > 50) {
+            System.out.println("Pass");
         } else {
-            System.out.println("Odd");
+            System.out.println("Fail");
         }
     }
 }
