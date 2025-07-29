@@ -1,10 +1,10 @@
 public class MultipleIfStatements {
     public static void main(String[] args) {
-        boolean sunny = false;
-        if (sunny) {
-            System.out.println("Sunblock!");
+        boolean finished = true ;
+        if (finished) {
+            System.out.println("Play!");
         } else {
-            System.out.println("Umbrella!");
+            System.out.println("Keep working");
         }
     }
 }
