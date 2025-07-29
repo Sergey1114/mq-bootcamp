@@ -1,8 +1,8 @@
 public class SingleIfStatements {
     public static void main(String[] args) {
-        int year = 2024 ;
-        if (year % 4 == 0) {
-            System.out.println("Leap year!");
+        int battery = 15 ;
+        if (battery <20) {
+            System.out.println("Plug in");
         }
     }
 }
