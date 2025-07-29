@@ -1,8 +1,8 @@
 public class SingleIfStatements {
     public static void main(String[] args) {
-        int age = 13;
-        if (age >= 13 && age <= 19) {
-            System.out.println("Teenager!");
+        int year = 2024 ;
+        if (year % 4 == 0) {
+            System.out.println("Leap year!");
         }
     }
 }
