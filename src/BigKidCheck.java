@@ -1,8 +1,8 @@
 public class BigKidCheck {
     public static void main(String[] args) {
-        int num = 7;
-        if(num % 2==1) {
-            System.out.println("Even");
+        int temp = 5;
+        if(temp < 10) {
+            System.out.println("Wear a coat!");
         }
     }
 }
