@@ -1,10 +1,10 @@
 public class MultipleIfStatements {
     public static void main(String[] args) {
-        int hour = 18;
-        if (hour < 18) {
-            System.out.println("Good morning");
+        int temp = 30;
+        if (temp > 25) {
+            System.out.println("Iced tea");
         } else {
-            System.out.println("Good night");
+            System.out.println("Hot cocoa");
         }
     }
 }
