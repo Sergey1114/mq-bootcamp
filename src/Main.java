@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Sergey");
-        System.out.println("Ghazaryan");
+        System.out.println(":)");
+        System.out.println(":(");
     }
 }
