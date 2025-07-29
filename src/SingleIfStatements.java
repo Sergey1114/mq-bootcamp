@@ -1,8 +1,8 @@
 public class SingleIfStatements {
     public static void main(String[] args) {
-        boolean likesChocolate = true;
-        if (likesChocolate) {
-            System.out.println("Yum!");
+        int dice = 7;
+        if (dice == 7) {
+            System.out.println("Lucky!");
         }
     }
 }
