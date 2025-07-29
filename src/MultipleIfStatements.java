@@ -1,10 +1,10 @@
 public class MultipleIfStatements {
     public static void main(String[] args) {
-        int num = 150;
-        if (num < 100) {
-            System.out.println("Small");
+        boolean sunny = false;
+        if (sunny) {
+            System.out.println("Sunblock!");
         } else {
-            System.out.println("Big");
+            System.out.println("Umbrella!");
         }
     }
 }
