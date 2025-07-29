@@ -1,10 +1,10 @@
 public class MultipleIfStatements {
     public static void main(String[] args) {
-        int n = -3;
-        if (n >= 0) {
-            System.out.println("Positive");
+        int age = 17;
+        if (age >18) {
+            System.out.println("Enter");
         } else {
-            System.out.println("Negative");
+            System.out.println("Stop");
         }
     }
 }
