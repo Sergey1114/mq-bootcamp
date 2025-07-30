@@ -1,13 +1,14 @@
 public class ComparisonPractice {
     public static void main(String[] args) {
-        int score1 = 37;
-        int score2 = 45;
-        if (score1 > score2) {
-            System.out.println(score1 + " is bigger than " + score2);
-        } else if (score2 > score1) {
-            System.out.println(score2 + " is bigger than " + score1);
-        } else if (score1 == score2) {
-            System.out.println(score1 + " is equal to " + score2);
+        int time1 = 30;
+        int time2 = 28;
+        int time3 = 29;
+        if (time1 <= time2 && time1 <= time3) {
+            System.out.println("runner 1 is the fastest");
+        } else if (time2 <= time1 && time2 <= time3) {
+            System.out.println("runner 2 is the fastest");
+        } else {
+            System.out.println("runner 3 is the fastest");
         }
     }
 }
