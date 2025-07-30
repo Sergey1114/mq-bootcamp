@@ -1,12 +1,14 @@
 public class MultipleIfStatementsSecond {
     public static void main(String[] args) {
-        int a = 3, b = 3, c = 3;
-        if (a == b && b == c) {
-            System.out.println("Equilateral");
-        } else if (a == b || b == c || a == c) {
-            System.out.println("Isosceles");
-        } else {
-            System.out.println("Scalene");
+        int month = 10;
+        if (month == 12 || month == 1 || month == 2) {
+            System.out.println("Winter");
+        } else if (month == 3 || month == 4 || month == 5) {
+            System.out.println("Spring");
+        } else if (month == 6 || month == 7 || month == 8) {
+            System.out.println("Summer");
+        } else if (month == 9 || month == 10 || month == 11) {
+            System.out.println("Autumn");
         }
     }
 }
