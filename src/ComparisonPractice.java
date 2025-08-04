@@ -1,11 +1,10 @@
 public class ComparisonPractice {
     public static void main(String[] args) {
-        int width = 10;
-        int height = 12;
-        if (width == height) {
-            System.out.println("Square");
+        int year = 2020;
+        if (year % 4 == 0 && year % 100 != 0){
+            System.out.println("Leap year");
         } else {
-            System.out.println("Rectangle");
+            System.out.println("Ordinary year");
         }
     }
 }
