@@ -1,13 +1,11 @@
 public class ComparisonPractice {
     public static void main(String[] args) {
-        int num1 = 2;
-        int num2 = 15;
-        if (num1 * num2 > 20) {
-            System.out.println("Big");
-        } else if (num1 * num2 == 20) {
-            System.out.println("Equal");
+        int width = 10;
+        int height = 12;
+        if (width == height) {
+            System.out.println("Square");
         } else {
-            System.out.println("Small");
+            System.out.println("Rectangle");
         }
     }
 }
