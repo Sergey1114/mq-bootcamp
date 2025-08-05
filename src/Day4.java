@@ -1,10 +1,10 @@
 public class Day4 {
     public static void main(String[] args) {
-        int year = 2025;
-        if (year % 4 == 0) {
-            System.out.println("leap");
+        int speed = 102;
+        if (speed < 90) {
+            System.out.println("OK");
         } else {
-            System.out.println("common");
+            System.out.println("Speeding Fine!");
         }
     }
 }
