@@ -1,10 +1,12 @@
 public class Day4 {
     public static void main(String[] args) {
-        int x = 17;
-        if (x % 2 == 0) {
-            System.out.println("odd");
+        int n = -8;
+        if (n < 0) {
+            System.out.println("Negative");
+        } else if (n == 0) {
+            System.out.println("Zero");
         } else {
-            System.out.println("even");
+            System.out.println("Positive");
         }
     }
 }
