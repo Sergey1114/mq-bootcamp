@@ -3,24 +3,27 @@ import java.util.Random;
 public class Day4 {
     public static void main(String[] args) {
         Random random = new Random();
-        int number = random.nextInt(1, 6);
+       char symbol =(char) random.nextInt(97,123);
+        System.out.println(symbol);
 
-        switch (number) {
-            case 1:
-                System.out.println("I");
+        switch (symbol) {
+            case 'a':
+                System.out.println("Vowel");
                 break;
-            case 2:
-                System.out.println("II");
+            case 'e':
+                System.out.println("Vowel");
                 break;
-            case 3:
-                System.out.println("III");
+            case 'i':
+                System.out.println("Vowel");
                 break;
-            case 4:
-                System.out.println("IV");
+            case 'o':
+                System.out.println("Vowel");
                 break;
-            case 5:
-                System.out.println("V");
+            case 'u':
+                System.out.println("Vowel");
                 break;
+            default:
+                System.out.println("Consonant");
         }
     }
 }
