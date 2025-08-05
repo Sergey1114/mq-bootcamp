@@ -3,11 +3,9 @@ import java.util.Random;
 public class Day4 {
     public static void main(String[] args) {
         Random random = new Random();
-        int flip = random.nextInt(2);
-        if (flip == 0) {
-            System.out.println("Heads");
-        } else {
-            System.out.println("Tails");
-        }
+        int R = random.nextInt(0, 256);
+        int G = random.nextInt(0, 256);
+        int B = random.nextInt(0, 256);
+        System.out.println("(" + R + "," + G + "," + B + ")");
     }
 }
