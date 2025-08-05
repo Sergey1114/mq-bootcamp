@@ -1,12 +1,8 @@
 public class Day4 {
     public static void main(String[] args) {
-        int n = -8;
-        if (n < 0) {
-            System.out.println("Negative");
-        } else if (n == 0) {
-            System.out.println("Zero");
-        } else {
-            System.out.println("Positive");
+        int age = 15;
+        if (age >= 13 && age <= 19) {
+            System.out.println("whether it's in the teen range");
         }
     }
 }
