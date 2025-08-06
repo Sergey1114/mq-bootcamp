@@ -4,10 +4,11 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String html = "<b>BOLD</b>";
-        int start = html.indexOf(">") + 1;
-        int end = html.indexOf("<", start);
-        String r =  html.substring(start, end);
-        System.out.println(r);
+       String word = "office";
+       if (word.length() < 5) {
+           System.out.println(word);
+       } else {
+           System.out.println(word.substring(0,5));
+       }
     }
 }
