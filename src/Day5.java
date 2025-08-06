@@ -5,7 +5,8 @@ public class Day5 {
     public static void main(String[] args) {
         String word = "level";
         char first = word.charAt(0);
-        char last = word.charAt(4);
-        System.out.println(first == last);
+        int lastIndex = word.length() - 1;
+        char lastChar = word.charAt(lastIndex);
+        System.out.println(first == lastChar);
     }
 }
