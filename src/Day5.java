@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String title = "Avengers";
-        System.out.println(title.toUpperCase());
+        String h = "Java";
+        System.out.println(h.toLowerCase());
     }
 }
