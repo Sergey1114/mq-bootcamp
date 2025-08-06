@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String code = "aa";
-        if (code.charAt(0) == code.charAt(1)) {
-            System.out.println(code.charAt(0));
+        String message = "Look, I cannot pass this :(";
+        if (message.contains(":)")) {
+            System.out.println("smile found");
         } else {
-            System.out.println(code);
+            System.out.println("no smile");
         }
     }
 }
