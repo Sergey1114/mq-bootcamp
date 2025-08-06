@@ -1,19 +1,15 @@
 import java.sql.SQLOutput;
 import java.text.StringCharacterIterator;
+import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String lang = "fr";
-        switch (lang) {
-            case "en":
-                System.out.println("Hello");
-                break;
-            case "fr":
-                System.out.println("Bonjour");
-                break;
-            case "es":
-                System.out.println("Hola");
-                break;
+        Random rand = new Random();
+        if  (rand.nextBoolean()) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
         }
     }
 }
+
