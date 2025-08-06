@@ -4,11 +4,10 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String message = "Look, I cannot pass this :(";
-        if (message.contains(":)")) {
-            System.out.println("smile found");
-        } else {
-            System.out.println("no smile");
-        }
+        String html = "<b>BOLD</b>";
+        int start = html.indexOf(">") + 1;
+        int end = html.indexOf("<", start);
+        String r =  html.substring(start, end);
+        System.out.println(r);
     }
 }
