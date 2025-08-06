@@ -4,12 +4,10 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        Random rand = new Random();
-        if  (rand.nextBoolean()) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
+        Random random = new Random();
+        int a = random.nextInt(0, 10);
+        int b = random.nextInt(0, 10);
+        String r = "" + a + b;
+        System.out.println(r);
     }
 }
-
