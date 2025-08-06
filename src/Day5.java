@@ -3,7 +3,7 @@ import java.text.StringCharacterIterator;
 
 public class Day5 {
     public static void main(String[] args) {
-        String sentence = "Hello World";
-        System.out.println(sentence.startsWith("Hello"));
-        }
+        String sentence = "I love programing!";
+        System.out.println(sentence.endsWith("!"));
     }
+}
