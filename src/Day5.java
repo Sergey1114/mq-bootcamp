@@ -4,7 +4,8 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String h = "Java";
-        System.out.println(h.toLowerCase());
+        String core = "cool";
+        String r = "pre-" + core + "-post";
+        System.out.println(r);
     }
 }
