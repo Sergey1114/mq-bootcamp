@@ -3,7 +3,8 @@ import java.text.StringCharacterIterator;
 
 public class Day5 {
     public static void main(String[] args) {
-        String a = "Hi, I love JAVA";
-        System.out.println(a.replace(" ", "*"));
+        String digits = "37410123456";
+        String p = "+" + digits;
+        System.out.println(p);
     }
 }
