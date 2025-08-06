@@ -3,8 +3,7 @@ import java.text.StringCharacterIterator;
 
 public class Day5 {
     public static void main(String[] args) {
-        String fileName = "photo.jpeg";
-        String extension = fileName.substring(fileName.lastIndexOf('.') + 1);
-        System.out.println(extension);
+        String sentence = "Hello World";
+        System.out.println(sentence.startsWith("Hello"));
+        }
     }
-}
