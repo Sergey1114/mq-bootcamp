@@ -4,11 +4,8 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String word = "water";
-        if (word.length() % 2 == 0) {
-            System.out.println("even length");
-        } else {
-            System.out.println("odd length");
-        }
+        String code = "123456";
+        String p = code.substring(0, 2) + "****";
+        System.out.println(p);
     }
 }
