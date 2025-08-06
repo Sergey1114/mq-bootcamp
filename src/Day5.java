@@ -4,11 +4,8 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-       String word = "office";
-       if (word.length() < 5) {
-           System.out.println(word);
-       } else {
-           System.out.println(word.substring(0,5));
-       }
+        String a = new String("Sergey");
+        String b = new String("sergey");
+        System.out.println(a.equalsIgnoreCase(b));
     }
 }
