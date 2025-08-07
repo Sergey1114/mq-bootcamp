@@ -2,9 +2,14 @@ import java.util.Random;
 
 public class Day6 {
     public static void main(String[] args) {
-        for (int i = 10; i > 0; i--) {
-            System.out.print(i + " ");
+        int value = 1;
+
+        while (value <= 1000) {
+            System.out.print(value + " ");
+            if (value * 2 > 1000) {
+                break;
+            }
+            value = value * 2;
         }
-        System.out.println("Blast off!");
     }
 }
