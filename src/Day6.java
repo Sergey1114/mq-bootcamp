@@ -2,14 +2,13 @@ import java.util.Random;
 
 public class Day6 {
     public static void main(String[] args) {
-        int value = 1;
+        int num = 123456;
+        int count = 0;
 
-        while (value <= 1000) {
-            System.out.print(value + " ");
-            if (value * 2 > 1000) {
-                break;
-            }
-            value = value * 2;
+        while (num > 0) {
+            num /= 10;
+            count++;
         }
+        System.out.println(count);
     }
 }
