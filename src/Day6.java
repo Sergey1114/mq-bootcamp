@@ -2,13 +2,14 @@ import java.util.Random;
 
 public class Day6 {
     public static void main(String[] args) {
-        int num = 123456;
-        int count = 0;
+        int number = 123456;
+        int reversed = 0;
 
-        while (num > 0) {
-            num /= 10;
-            count++;
+        while (number != 0) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number = number / 10;
         }
-        System.out.println(count);
+        System.out.println(reversed);
     }
 }
