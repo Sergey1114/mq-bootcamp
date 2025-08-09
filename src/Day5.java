@@ -4,8 +4,11 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String code = "123456";
-        String p = code.substring(0, 2) + "****";
-        System.out.println(p);
+        String link = "https://app.slack.com/client/T097XJ39MDG/C098C0WAM3K";
+        if (link.startsWith("https://")) {
+            System.out.println("https url");
+        } else {
+            System.out.println("not secure");
+        }
     }
 }
