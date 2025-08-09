@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        String word = "car";
-        if (word.charAt(0) == word.charAt(2)) {
-            System.out.println("pal");
+        String username = "Sergey";
+        if (username.length() < 4) {
+            System.out.println("short");
         } else {
-            System.out.println("not");
+            System.out.println("ok");
         }
     }
 }
