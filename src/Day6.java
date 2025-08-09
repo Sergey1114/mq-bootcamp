@@ -2,15 +2,18 @@ import java.util.Random;
 
 public class Day6 {
     public static void main(String[] args) {
-        int number = 2415;  // You can change this to any number
-        int sum = 0;
+        Random random = new Random();
+        int n = random.nextInt(100);
+        System.out.println(n);
+        int factor = 0;
 
-        while (number > 0) {
-            sum += number % 10;
-            number /= 10;
+        for (int i = 2; i <= n; i++) {
+            if (n % i == 0) {
+                factor = i;
+                break;
+
+            }
         }
-
-        System.out.println("Digit sum = " + sum);
-
+        System.out.println("smallest factor = " + factor);
     }
 }
