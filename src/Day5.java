@@ -4,8 +4,11 @@ import java.util.Random;
 
 public class Day5 {
     public static void main(String[] args) {
-        Random random = new Random();
-        char rnd = (char)('a' + random.nextInt(26));
-        System.out.println(rnd);
+        String password = "1223334444!";
+        if (password.length() >= 8 && password.contains("!")) {
+            System.out.println("strong");
+        } else {
+            System.out.println("weak");
+        }
     }
 }
