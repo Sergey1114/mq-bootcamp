@@ -1,11 +1,16 @@
 public class Day7 {
     public static void main(String[] args) {
-        String w = "code";
-        String rev = "";
-        for (int i = w.length() - 1; i >= 0; i--) {
-            rev = rev + w.charAt(i);
+        String color = "Red";
+        switch (color.toLowerCase()) {
+            case "red":
+                System.out.println("Stop");
+                break;
+            case "yellow":
+                System.out.println("Wait");
+                break;
+            case "green":
+                System.out.println("Go");
+                break;
         }
-        System.out.println(w);
-        System.out.println(rev);
     }
 }
