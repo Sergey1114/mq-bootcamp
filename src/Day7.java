@@ -1,9 +1,8 @@
 public class Day7 {
     public static void main(String[] args) {
-        int sum = 0;
-        for (int i = 1; i <= 20; i++) {
-            sum += i;
+        String e = ":)";
+        for (int i = 0; i < 10; i++) {
+            System.out.print(e + " ");
         }
-        System.out.println(sum);
     }
 }
