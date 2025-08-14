@@ -6,7 +6,7 @@ public class ReverseIntoNew {
         for (int i = 0; i < n; i++) {
             b[i] = a[n - 1 - i];
         }
-        System.out.print("Reversed");
+        System.out.print("Reversed ");
         for (int i = 0; i < n; i++) {
             System.out.print(b[i] + " ");
         }
