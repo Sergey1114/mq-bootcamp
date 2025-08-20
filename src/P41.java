@@ -5,6 +5,6 @@ public class P41 {
     }
 
     public static String reverse4(String s) {
-        return s.charAt(3) + "" + s.charAt(2) + "" + s.charAt(1) + "" + s.charAt(0);
+        return "" + s.charAt(3) + s.charAt(2) + s.charAt(1) + s.charAt(0);
     }
 }
